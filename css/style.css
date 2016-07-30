@@ -1,0 +1,112 @@
+* {
+    font-family: Open Sans;
+  }
+.box{
+position: inherit;
+border-style: solid;
+border-top: 0;
+border-bottom: 0;
+border-color: grey;
+margin:auto;
+padding-left: 10px;
+padding-right: 10px;
+width: 70%;
+height: auto;
+}
+
+/* Меню верхнее */
+.topmenu {
+margin: 0;
+padding: 0;
+float: left;
+width: 100%;
+background-image: url(../img/m1b1.jpg);
+list-style: none;
+margin-bottom: 20px;
+}
+
+.topmenu li{
+  float: left;
+  }
+  .topmenu a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 2.1em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-right: grey solid 1px;
+  }
+
+
+.topmenu a:hover {
+  background-image: url(../img/m1b2.jpg);
+}
+
+/* Меню левое */
+.leftmenu {
+width: auto;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.leftmenu a{
+display: inline-block;
+text-align: left;
+width: 25%;
+height: 40px;
+padding-left: 10px;
+margin: auto;
+line-height: 2.4em;
+border: grey solid 0.5px;
+text-decoration: none;
+color: black;
+}
+.leftmenu a:hover {
+padding-left: 20px;
+border: white solid 0.5px;
+}
+
+/* Основной блок */
+.mainbox {
+  width: 60%;
+  float: right;
+  padding-right: 34px;
+  font-size: 12px;
+}
+.textbox{
+  width: 100%;
+}
+
+/* Нижнее меню */
+.footermenu {
+margin: 0;
+padding: 0;
+float: left;
+width: 100%;
+background-color: #e1e1e1;
+list-style: none;
+}
+
+.footermenu li{
+  float: left;
+  }
+  .footermenu a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 2.1em;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    }
+
+.footermenu a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: grey solid 0.5px
+}
