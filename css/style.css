@@ -1,6 +1,13 @@
     * {
       font-family: Open Sans;
+      margin: 0;
+      padding: 0;
       }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
     .box{
       position: inherit;
       border-style: solid;
@@ -8,15 +15,16 @@
       border-bottom: 0;
       border-color: grey;
       margin:auto;
-      padding-left: 10px;
-      padding-right: 10px;
+      margin-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
       width: 70%;
       height: auto;
       }
 
 /* Меню верхнее */
    .topmenu {
-     mar     gin: 0;
+     margin: 0;
      padding: 0;
      float: left;
      width: 100%;
@@ -55,7 +63,7 @@
     .leftmenu a{
       display: inline-block;
       text-align: left;
-      width: 25%;
+      width: 24%;
       height: 40px;
       padding-left: 10px;
       margin: auto;
@@ -72,10 +80,17 @@
 
 /* Основной блок */
     .mainbox {
-      width: 60%;
+      width: 70%;
       float: right;
-      padding-right: 34px;
       font-size: 12px;
+      padding: 0 auto;
+      margin: 0 auto;
+      }
+
+      .clearfix:after{
+        content: '';
+        clear: both;
+        display: block;
       }
 
     .textbox{
@@ -84,12 +99,13 @@
 
 /* Нижнее меню */
     .footermenu {
-      margin: 0;
+      margin-top: 10px;
       padding: 0;
       float: left;
       width: 100%;
       background-color: #e1e1e1;
       list-style: none;
+      position: relative;
       }
 
     .footermenu li{
@@ -97,13 +113,24 @@
       }
 
       .footermenu a {
-        display: block;
-        width: 100px;
-        height: 30px;
-        line-height: 2.1em;
-        text-align: center;
-        text-decoration: none;
-        color:black;
+         display: block;
+         width: 100px;
+         height: 30px;
+         line-height: 2.1em;
+         text-align: center;
+         text-decoration: none;
+         color:black;
+        }
+
+      .last {
+         display: block;
+         position: absolute;
+         right: 5px;
+         top: 4px;
+         width: auto;
+         height: 30px;
+         line-height: 2.1em
+         float: left;
         }
 
     .footermenu a:hover {
@@ -111,5 +138,7 @@
       }
 
     img {
-      border: grey solid 0.5px
+      border: grey solid 0.5px;
+      width: 100%;
+      height: auto;
       }
