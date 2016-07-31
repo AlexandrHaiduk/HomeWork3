@@ -1,144 +1,143 @@
     * {
-      font-family: Open Sans;
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
       }
 
-      h1 {
-        margin-bottom: 20px;
+h1 {
+    margin-bottom: 20px;
       }
 
-    .box{
-      position: inherit;
-      border-style: solid;
-      border-top: 0;
-      border-bottom: 0;
-      border-color: grey;
-      margin:auto;
-      margin-top: 10px;
-      padding-left: 20px;
-      padding-right: 20px;
-      width: 70%;
-      height: auto;
+.box {
+    position: inherit;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #808080;
       }
 
 /* Меню верхнее */
-   .topmenu {
-     margin: 0;
-     padding: 0;
-     float: left;
-     width: 100%;
-     background-image: url(../img/m1b1.jpg);
-     list-style: none;
-     margin-bottom: 20px;
-     }
+.topmenu {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    float: left;
+    background-image: url('../img/m1b1.jpg');
+    list-style: none;
+ }
 
-    .topmenu li{
-     float: left;
+.topmenu li {
+    float: left;
   }
 
-    .topmenu a {
-       display: block;
-       width: 100px;
-       height: 40px;
-       line-height: 2.1em;
-       text-align: center;
-       text-decoration: none;
-       color: white;
-       border-right: grey solid 1px;
-       }
+.topmenu a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-right: #808080 solid 1px;
+    color: #fff;
+    line-height: 2.1em;
+    text-align: center;
+    text-decoration: none;
+ }
 
-    .topmenu a:hover {
-       background-image: url(../img/m1b2.jpg);
+.topmenu a:hover {
+    background-image: url('../img/m1b2.jpg');
        }
 
 /* Меню левое */
-    .leftmenu {
-      width: auto;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      }
+.leftmenu {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
 
-    .leftmenu a{
-      display: inline-block;
-      text-align: left;
-      width: 24%;
-      height: 40px;
-      padding-left: 10px;
-      margin: auto;
-      line-height: 2.4em;
-      border: grey solid 0.5px;
-      text-decoration: none;
-      color: black;
-      }
+.leftmenu a {
+    display: inline-block;
+    width: 24%;
+    height: 40px;
+    margin: auto;
+    padding-left: 10px;
+    border: #808080 solid .5px;
+    color: #000;
+    line-height: 2.4em;
+    text-align: left;
+    text-decoration: none;
+ }
 
-    .leftmenu a:hover {
-      padding-left: 20px;
-      border: white solid 0.5px;
+.leftmenu a:hover {
+    padding-left: 20px;
+    border: #fff solid .5px;
       }
 
 /* Основной блок */
-    .mainbox {
-      width: 70%;
-      float: right;
-      font-size: 12px;
-      padding: 0 auto;
-      margin: 0 auto;
-      }
+.mainbox {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 auto;
+    float: right;
+    font-size: 12px;
+ }
 
-      .clearfix:after{
-        content: '';
-        clear: both;
-        display: block;
-      }
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+ }
 
-    .textbox{
-      width: 100%;
-      }
+.textbox {
+    width: 100%;
+ }
 
 /* Нижнее меню */
-    .footermenu {
-      margin-top: 10px;
-      padding: 0;
-      float: left;
-      width: 100%;
-      background-color: #e1e1e1;
-      list-style: none;
-      position: relative;
+.footermenu {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    float: left;
+    background-color: #e1e1e1;
+    list-style: none;
+ }
+
+.footermenu li {
+    float: left;
       }
 
-    .footermenu li{
-      float: left;
-      }
+.footermenu a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    color: #000;
+    line-height: 2.1em;
+    text-align: center;
+    text-decoration: none;
+}
 
-      .footermenu a {
-         display: block;
-         width: 100px;
-         height: 30px;
-         line-height: 2.1em;
-         text-align: center;
-         text-decoration: none;
-         color:black;
-        }
+.last {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: auto;
+    height: 30px;
+    line-height: 2.1em;
+ }
 
-      .last {
-         display: block;
-         position: absolute;
-         right: 5px;
-         top: 4px;
-         width: auto;
-         height: 30px;
-         line-height: 2.1em
-         float: left;
-        }
+.footermenu a:hover {
+    text-decoration: underline;
+ }
 
-    .footermenu a:hover {
-      text-decoration: underline;
-      }
-
-    img {
-      border: grey solid 0.5px;
-      width: 100%;
-      height: auto;
-      }
+img {
+    width: 100%;
+    height: auto;
+    border: #808080 solid .5px;
+ }
